@@ -74,14 +74,14 @@
 |69|mysql_mysql-server|8b9fac|bug+cast|Bug#33075828: Crash in routine using CAST and DEFAULT()|[review](https://github.com/mysql/mysql-server/commit/8b9facb253e7c27ac644e2e46e06024241e34a13)|not really relevant|
 |70|mysql_mysql-server|4fb008|bug+cast|bug #19491 (CAST do DATETIME wrong result)|[review](https://github.com/mysql/mysql-server/commit/4fb00857ca27d66fee465c85d882c7edf46ef828)|[x]|
 |71|mysql_mysql-server|a11677|bug+cast|fixed printing of sum(distinct ) & avg(distinct )  & cast(... as decimal) (BUG#7015, BUG#11387)|[review](https://github.com/mysql/mysql-server/commit/a11677026f6aed1281e6fd7cdc9250bbe892132f)|not really relevant|
-|72|mysql_mysql-server|2877b5|bug+cast|item_cmpfunc.h, cast.result:|[review](https://github.com/mysql/mysql-server/commit/2877b5ef64ed40ccfdaed3f743753d4348a7e814)|
-|73|mysql_mysql-server|65e6ec|bug+cast|Fix for bug #12956: cast make differ rounding.|[review](https://github.com/mysql/mysql-server/commit/65e6ecb861c22a6a80c76457a0d340fcaf7f0d28)|
-|74|mysql_mysql-server|3bfe35|bug+cast|Fix CAST(1.0e+300 TO SIGNED). (Bug #13344)|[review](https://github.com/mysql/mysql-server/commit/3bfe3579d4d58a33062f3c7053206d331df7659d)|
-|75|mysql_mysql-server|971eaa|bug+cast|Fix for bug #10337 (cast(NULL DECIMAL) crashes the server)|[review](https://github.com/mysql/mysql-server/commit/971eaa189dc79a4f676d0418b2b122516054289e)|
-|76|mysql_mysql-server|fbbb58|bug+cast|Fix for bug #8935 CAST(time AS DECIMAL) crashes|[review](https://github.com/mysql/mysql-server/commit/fbbb58c6aeaab9ac5983f5fc57204e0e74b5b954)|
-|77|mysql_mysql-server|7ebb9c|bug+cast|Bug #33406728 Item_charset_conversion::compute_max_char_length|[review](https://github.com/mysql/mysql-server/commit/7ebb9cd8af6a0c932da58b4210d4ca6bd59b111e)|
-|78|mysql_mysql-server|b7397a|bug+cast|Bug#22851447 REMOVE DEPENDENCIES ON SQL_LEX.H|[review](https://github.com/mysql/mysql-server/commit/b7397a1f72bb89b01bf8e686de547895e00b687b)|
-|79|mysql_mysql-server|68e9da|bug+cast|WL#946:|[review](https://github.com/mysql/mysql-server/commit/68e9da6f34470bfb2589a1f206cf144a09db88c4)|
+|72|mysql_mysql-server|2877b5|bug+cast|item_cmpfunc.h, cast.result:|[review](https://github.com/mysql/mysql-server/commit/2877b5ef64ed40ccfdaed3f743753d4348a7e814)|not really relevant|
+|73|mysql_mysql-server|65e6ec|bug+cast|Fix for bug #12956: cast make differ rounding.|[review](https://github.com/mysql/mysql-server/commit/65e6ecb861c22a6a80c76457a0d340fcaf7f0d28)|[x]|
+|74|mysql_mysql-server|3bfe35|bug+cast|Fix CAST(1.0e+300 TO SIGNED). (Bug #13344)|[review](https://github.com/mysql/mysql-server/commit/3bfe3579d4d58a33062f3c7053206d331df7659d)|[x]|
+|75|mysql_mysql-server|971eaa|bug+cast|Fix for bug #10337 (cast(NULL DECIMAL) crashes the server)|[review](https://github.com/mysql/mysql-server/commit/971eaa189dc79a4f676d0418b2b122516054289e)|[x]|
+|76|mysql_mysql-server|fbbb58|bug+cast|Fix for bug #8935 CAST(time AS DECIMAL) crashes|[review](https://github.com/mysql/mysql-server/commit/fbbb58c6aeaab9ac5983f5fc57204e0e74b5b954)|not really relevant|
+|77|mysql_mysql-server|7ebb9c|bug+cast|Bug #33406728 Item_charset_conversion::compute_max_char_length|[review](https://github.com/mysql/mysql-server/commit/7ebb9cd8af6a0c932da58b4210d4ca6bd59b111e)|tangled change|
+|78|mysql_mysql-server|b7397a|bug+cast|Bug#22851447 REMOVE DEPENDENCIES ON SQL_LEX.H|[review](https://github.com/mysql/mysql-server/commit/b7397a1f72bb89b01bf8e686de547895e00b687b)|not really relevant|
+|79|mysql_mysql-server|68e9da|bug+cast|WL#946:|[review](https://github.com/mysql/mysql-server/commit/68e9da6f34470bfb2589a1f206cf144a09db88c4)|tangled change|
 |80|mysql_mysql-server|615c2e|bug+cast|Bug#28787273: FIX -WCAST-QUAL COMPILATION WARNINGS [noclose]|[review](https://github.com/mysql/mysql-server/commit/615c2ef1dc2748f4118eb936a6374f65b6a5f351)|
 |81|mysql_mysql-server|eda9e5|bug+cast|Bug#28787272: FIX -WCAST-QUAL COMPILATION WARNINGS [noclose]|[review](https://github.com/mysql/mysql-server/commit/eda9e568cf9b3d93c0a7ea4bb8cc4caf4f3712b1)|
 |82|mysql_mysql-server|d7bca8|bug+cast|Bug#28787273: FIX -WCAST-QUAL COMPILATION WARNINGS [noclose]|[review](https://github.com/mysql/mysql-server/commit/d7bca85120f5180f97e57cdf866b769ead2de3b7)|
