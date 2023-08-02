@@ -229,16 +229,16 @@
 |224|mysql_mysql-server|639161|bug+cast|bug #25895 (compiling the embedded server fails on some 64-bit platforms)|[review](https://github.com/mysql/mysql-server/commit/6391613d32c243c621396497cb6c1d03ccb06893)|[x]|
 |225|mysql_mysql-server|183c67|bug+cast|BUG#22645 - LC_TIME_NAMES: Statement not replicated|[review](https://github.com/mysql/mysql-server/commit/183c67598010f177b7fcf6043dd28ff8d709fdf4)|tangled change|
 |226|mysql_mysql-server|20036a|bug+cast|BUG#22645 - LC_TIME_NAMES: Statement not replicated|[review](https://github.com/mysql/mysql-server/commit/20036a42b8c8724ae4635b36bc8fc87042e15b45)|tangled change|
-|227|mysql_mysql-server|5d4c57|bug+cast|Bug#19955: unsigned bigint used as signed with MOD function|[review](https://github.com/mysql/mysql-server/commit/5d4c57b900c164345f8635d13e66070e98208a29)|
-|228|mysql_mysql-server|18577a|bug+cast|Bug #8663 (cant use bigint as input to CAST)|[review](https://github.com/mysql/mysql-server/commit/18577a8e8f8d9a14cb0d64061d94c227d8520eef)|
-|229|mysql_mysql-server|d19cd9|bug+cast|Bug#19741 segfault with cp1250 charset + like + primary key + 64bit os|[review](https://github.com/mysql/mysql-server/commit/d19cd9382eb805da4bd59587e5162a56be790191)|
-|230|mysql_mysql-server|4b877e|bug+cast|Added macros for nice TIMESPEC usage.|[review](https://github.com/mysql/mysql-server/commit/4b877e0088e6f32a606ffaa0fb3c94afb0b24388)|
-|231|mysql_mysql-server|4c9af5|bug+cast|Bug#28984: crasher on connect with out of range password length in \|[review](https://github.com/mysql/mysql-server/commit/4c9af559086d5094673e2c10812de8080418c30f)|
-|232|mysql_mysql-server|19b54e|bug+cast|Bug#28984: crasher on connect with out of range password length in \|[review](https://github.com/mysql/mysql-server/commit/19b54e394fe75baf879136761638d03451d2d9da)|
-|233|mysql_mysql-server|f37267|bug+cast|Bug #21103: DATE column not compared as DATE|[review](https://github.com/mysql/mysql-server/commit/f37267bb3c246a32ae4967f9860965cd4436abfd)|
-|234|mysql_mysql-server|718ae7|bug+cast|Bug#11527 - Setting myisam_repair_threads to >1 leads to corruption|[review](https://github.com/mysql/mysql-server/commit/718ae789726b57ff4ef4c7b48df831568be58076)|
-|235|mysql_mysql-server|1ab330|bug+cast|Bug#28947107: JSON_OBJECT() CASTS YEAR VALUES TO BASE64|[review](https://github.com/mysql/mysql-server/commit/1ab330d39fdbb668d02939a96fddb4e98e63a34e)|
-|236|mysql_mysql-server|c8df6e|bug+cast|BUG#48357: SHOW BINLOG EVENTS: Wrong offset or I/O error|[review](https://github.com/mysql/mysql-server/commit/c8df6e8d4b8e7d006cd53393ba14fbd141244c6c)|
+|227|mysql_mysql-server|5d4c57|bug+cast|Bug#19955: unsigned bigint used as signed with MOD function|[review](https://github.com/mysql/mysql-server/commit/5d4c57b900c164345f8635d13e66070e98208a29)|[x]|
+|228|mysql_mysql-server|18577a|bug+cast|Bug #8663 (cant use bigint as input to CAST)|[review](https://github.com/mysql/mysql-server/commit/18577a8e8f8d9a14cb0d64061d94c227d8520eef)|[x]|
+|229|mysql_mysql-server|d19cd9|bug+cast|Bug#19741 segfault with cp1250 charset + like + primary key + 64bit os|[review](https://github.com/mysql/mysql-server/commit/d19cd9382eb805da4bd59587e5162a56be790191)|[x]|
+|230|mysql_mysql-server|4b877e|bug+cast|Added macros for nice TIMESPEC usage.|[review](https://github.com/mysql/mysql-server/commit/4b877e0088e6f32a606ffaa0fb3c94afb0b24388)|tangled change|
+|231|mysql_mysql-server|4c9af5|bug+cast|Bug#28984: crasher on connect with out of range password length in \|[review](https://github.com/mysql/mysql-server/commit/4c9af559086d5094673e2c10812de8080418c30f)|[x]|
+|232|mysql_mysql-server|19b54e|bug+cast|Bug#28984: crasher on connect with out of range password length in \|[review](https://github.com/mysql/mysql-server/commit/19b54e394fe75baf879136761638d03451d2d9da)|[x]|
+|233|mysql_mysql-server|f37267|bug+cast|Bug #21103: DATE column not compared as DATE|[review](https://github.com/mysql/mysql-server/commit/f37267bb3c246a32ae4967f9860965cd4436abfd)|not really relevant|
+|234|mysql_mysql-server|718ae7|bug+cast|Bug#11527 - Setting myisam_repair_threads to >1 leads to corruption|[review](https://github.com/mysql/mysql-server/commit/718ae789726b57ff4ef4c7b48df831568be58076)|not really relevant|
+|235|mysql_mysql-server|1ab330|bug+cast|Bug#28947107: JSON_OBJECT() CASTS YEAR VALUES TO BASE64|[review](https://github.com/mysql/mysql-server/commit/1ab330d39fdbb668d02939a96fddb4e98e63a34e)|[x]|
+|236|mysql_mysql-server|c8df6e|bug+cast|BUG#48357: SHOW BINLOG EVENTS: Wrong offset or I/O error|[review](https://github.com/mysql/mysql-server/commit/c8df6e8d4b8e7d006cd53393ba14fbd141244c6c)|[x]|
 |237|mysql_mysql-server|6a8812|bug+cast|Bug#31667405: Incorrect prepared statement outcome with numeric strings in JSON|[review](https://github.com/mysql/mysql-server/commit/6a8812853d99f2d082d6d2734fb553fda6d1eb28)|
 |238|mysql_mysql-server|8957b8|bug+cast|Bug#31667405: Incorrect prepared statement outcome with numeric strings in JSON|[review](https://github.com/mysql/mysql-server/commit/8957b854554155104c9bb3506ea8de934074d16b)|
 |239|mysql_mysql-server|8ad743|bug+cast|Bug#32713860: Executing prepare returns wrong result|[review](https://github.com/mysql/mysql-server/commit/8ad74383250d3ae823dac592571ca5caae6d12c7)|
