@@ -34,41 +34,41 @@
 |29|apple_swift|65d8f0|fix+upcast|Merge pull request #4329 from rjmccall/collection-upcast-oves|[review](https://github.com/apple/swift/commit/65d8f03448c2c167198148ff0874bd0c57f09bec)| [x] |
 |30|apple_swift|2ff6fd|fix+upcast|[sil-combine] Update ownership for bridge_object_to_ref.|[review](https://github.com/apple/swift/commit/2ff6fdfd0a9f9c84fddfc11eba76c07845253306)| not really relevant |
 |31|apple_swift|532e20|fix+upcast|Merge pull request #7988 from gottesmm/forward_underlying_upcast_cleanups|[review](https://github.com/apple/swift/commit/532e20e238f6962c0b75165498ead717154faf85)| [x] |
-|32|apple_swift|279d05|fix+upcast|[sil-combine] Canonicalize owned forwarding insts without non-debug non-consuming uses by sinking to their uses.|[review](https://github.com/apple/swift/commit/279d058bfee671d80a4beb778ebf88883efd3fd9)|
-|33|apple_swift|e360d7|fix+upcast|Fix the open-existential remover to not die on the OVEs in collection upcasts.|[review](https://github.com/apple/swift/commit/e360d7f2b020c992e2aab8bcccd3b7d57eecb73d)|
-|34|apple_swift|75d006|fix+upcast|Merge pull request #7913 from slavapestov/super-wrong-upcast-fix|[review](https://github.com/apple/swift/commit/75d0061c33c857ab03b198ecf42acf2202e43d8a)|
-|35|apple_swift|a84a3a|fix+upcast|[Stdlib] Fix _swift_modifyAtWritableKeyPath_impl to check for ReferenceWritableKeyPaths.|[review](https://github.com/apple/swift/commit/a84a3a8f2363ceecccb12ccb62314089d68e9a8a)|
-|36|apple_swift|5af026|fix+upcast|Merge pull request #10193 from slavapestov/self-init-might-have-an-upcast|[review](https://github.com/apple/swift/commit/5af026608e75f37398f85af9254443cd40e6a744)|
-|37|apple_swift|a68975|fix+upcast|[semantic-sil] Fix a place where we are forwarding the underlying cleanup vs creating a new one when performing upcast.|[review](https://github.com/apple/swift/commit/a68975a21bc6718127328adcdd6a77064d1521b0)|
-|38|apple_swift|8fc40b|fix+upcast|SILGen: Use unchecked_ref_cast to adjust covariant returns in thunks.|[review](https://github.com/apple/swift/commit/8fc40ba57822de3ababe2213f86589b6ebf0d024)|
-|39|apple_swift|8a1062|fix+upcast|Sema: Try harder to preserve ParenType sugar when when performing upcasts|[review](https://github.com/apple/swift/commit/8a1062dedd87d0e0cd122f08ad7996ec224c5253)|
-|40|apple_swift|2bb827|fix+upcast|Sema: Simplifying a KeyPathExpr's type should *bind* to the specific type, not accept a subtype constraint.|[review](https://github.com/apple/swift/commit/2bb827340b5d733cca3a1c9992f82afb0a3f9db6)|
-|41|apple_swift|f7e05f|fix+downcast|[Bridging cast optimization] Unchecked casts can perform a class downcast.|[review](https://github.com/apple/swift/commit/f7e05fd9517f5c4092989aa53ea3d308edfc5628)|
-|42|apple_swift|62e194|fix+downcast|[cast-optimizer] Bail out on a conditional downcast to a subclass of a bridged ObjC class|[review](https://github.com/apple/swift/commit/62e1944d7b1018a3314843d01fce410118f1272b)|
-|43|apple_swift|19b12a|fix+downcast|Sema: Fix convenience init delegation to a convenience init in a generic base class|[review](https://github.com/apple/swift/commit/19b12aa3b1ed74c5bd631bf4c505d63b8fafc809)|
-|44|apple_swift|b639f7|fix+downcast|Sema: Fix conditional downcasts from Swift types to CF types|[review](https://github.com/apple/swift/commit/b639f7fd83a86b9c2f97d14bb9723c53bb20151d)|
-|45|apple_swift|35a559|fix+downcast|SILGen: Fixes for *static* 'Self'-returning methods|[review](https://github.com/apple/swift/commit/35a5594035ec4074fb0e562ea1e16dab59e44ace)|
-|46|apple_swift|3052e3|fix+cast|Runtime: Fix dynamic casts of variadic types that conditionally conform|[review](https://github.com/apple/swift/commit/3052e36f7e58250aed7f1b9c6fc25f13d485a808)|
-|47|apple_swift|2c96e9|fix+cast|[Sema] Improved Cast Diagnostics when Literals are involved|[review](https://github.com/apple/swift/commit/2c96e90c719a5ca4bd400eda6895e0a0f9ae8774)|
-|48|apple_swift|f3b16f|fix+cast|[CS] Fix a couple of constraints in `getTypeForPattern`|[review](https://github.com/apple/swift/commit/f3b16fd7ad3463d8f2f6da231cf039c734d0cd43)|
-|49|apple_swift|27731b|fix+cast|IRGen: Another fix for compiling LLVM opaque pointers|[review](https://github.com/apple/swift/commit/27731bd61a44d72b5edae202208978b2b2671698)|
-|50|apple_swift|4b4662|fix+cast|[IRGen] Cast dynamic alloca to appropriate type.|[review](https://github.com/apple/swift/commit/4b46622e49ad3f4a37aac4967763db2b4b4c3f2c)|
-|51|apple_swift|6d63cf|fix+cast|fix cast type in getting task record|[review](https://github.com/apple/swift/commit/6d63cf49948e419d6c10c687736a26ea892636cc)|
-|52|apple_swift|cf8abc|fix+cast|Merge pull request #64017 from xedin/add-castTo-to-ConstraintFix|[review](https://github.com/apple/swift/commit/cf8abc9eb9bbbc394af05b14e2ec3f0421c04a9b)|
-|53|apple_swift|2dbc40|fix+cast|[CSFix] NFC: Add a way to cast one fix to the other (to complement `getAs`)|[review](https://github.com/apple/swift/commit/2dbc406ad2947b603542bdfbec4a689da1ce8499)|
-|54|apple_swift|ae926b|fix+cast|[RemoteMirror] Fix getEmptyTypeInfo() not allocating a BuiltinTypeInfo.|[review](https://github.com/apple/swift/commit/ae926bdc7d37b2e0a24c31648a720277fa672ee4)|
-|55|apple_swift|dc3978|fix+cast|Merge pull request #61853 from apple/egorzhdan/cxx-rac-iterator-nullptr|[review](https://github.com/apple/swift/commit/dc3978f6fbf149f3fbd9c30138040ca07762dd97)|
-|56|apple_swift|af57b2|fix+cast|[Backtracing] Tweaks after Mike's remarks.|[review](https://github.com/apple/swift/commit/af57b2c26daa5df31deea0bd525f261587435936)|
-|57|apple_swift|3e2992|fix+cast|[cxx-interop] Fix nullptr casts in auto-conformance logic|[review](https://github.com/apple/swift/commit/3e29920949c53f109b2d2e3d9c26a7d99e8b6bf5)|
-|58|apple_swift|b91f29|fix+cast|SR-14635: __SwiftValue should be transparent to casting|[review](https://github.com/apple/swift/commit/b91f29dfcb97c5446bb131000ebd29ce31d287b3)|
-|59|apple_swift|f35e5e|fix+cast|Merge pull request #42333 from atrick/fix-cast-ownership|[review](https://github.com/apple/swift/commit/f35e5e87a2280a9c3c609236a71889ace1b2a810)|
-|60|apple_swift|524637|fix+cast|Merge pull request #59754 from zoecarver/fix-static-down-cast-shim|[review](https://github.com/apple/swift/commit/524637288e131ed363d377f95bee4c41f609af45)|
-|61|apple_swift|bc1443|fix+cast|Merge pull request #60014 from slavapestov/fix-rdar93822961|[review](https://github.com/apple/swift/commit/bc1443e43e59e6a693af73eb74b5633f7883fcc9)|
-|62|apple_swift|c80d8e|fix+cast|IRGen: Exclude classes defined in generic contexts from fast cast optimization|[review](https://github.com/apple/swift/commit/c80d8e6b1c9958c44c47dfb0ed64f12740f1909a)|
-|63|apple_swift|2527d3|fix+cast|IRGen: fix how metadata is loaded for fast class casting|[review](https://github.com/apple/swift/commit/2527d3765ebde33c85ec4aa61925f61d28e77a10)|
-|64|apple_swift|99f170|fix+cast|[CSFix] Create a fix for checked cast that always fail and existential to CFType|[review](https://github.com/apple/swift/commit/99f17048735e6b8ffb4676e0677b05e6e0c4a632)|
-|65|apple_swift|ec615b|fix+cast|Fix ptrauth in RelativeDirectPointer to sign *then* cast (#41355)|[review](https://github.com/apple/swift/commit/ec615b9ee0ac7e763d57f6809c5d08b578e45096)|
-|66|apple_swift|15772e|fix+cast|[CSApply] Ajust expression rewriter to handle casts without reprs|[review](https://github.com/apple/swift/commit/15772e4a725a80bc6192efcd110b4aa0ced16123)|
+|32|apple_swift|279d05|fix+upcast|[sil-combine] Canonicalize owned forwarding insts without non-debug non-consuming uses by sinking to their uses.|[review](https://github.com/apple/swift/commit/279d058bfee671d80a4beb778ebf88883efd3fd9)| not really relevant |
+|33|apple_swift|e360d7|fix+upcast|Fix the open-existential remover to not die on the OVEs in collection upcasts.|[review](https://github.com/apple/swift/commit/e360d7f2b020c992e2aab8bcccd3b7d57eecb73d)| [x] |
+|34|apple_swift|75d006|fix+upcast|Merge pull request #7913 from slavapestov/super-wrong-upcast-fix|[review](https://github.com/apple/swift/commit/75d0061c33c857ab03b198ecf42acf2202e43d8a)| [x] |
+|35|apple_swift|a84a3a|fix+upcast|[Stdlib] Fix _swift_modifyAtWritableKeyPath_impl to check for ReferenceWritableKeyPaths.|[review](https://github.com/apple/swift/commit/a84a3a8f2363ceecccb12ccb62314089d68e9a8a)| not really relevant |
+|36|apple_swift|5af026|fix+upcast|Merge pull request #10193 from slavapestov/self-init-might-have-an-upcast|[review](https://github.com/apple/swift/commit/5af026608e75f37398f85af9254443cd40e6a744)| [x] |
+|37|apple_swift|a68975|fix+upcast|[semantic-sil] Fix a place where we are forwarding the underlying cleanup vs creating a new one when performing upcast.|[review](https://github.com/apple/swift/commit/a68975a21bc6718127328adcdd6a77064d1521b0)| [x] |
+|38|apple_swift|8fc40b|fix+upcast|SILGen: Use unchecked_ref_cast to adjust covariant returns in thunks.|[review](https://github.com/apple/swift/commit/8fc40ba57822de3ababe2213f86589b6ebf0d024)| [x] |
+|39|apple_swift|8a1062|fix+upcast|Sema: Try harder to preserve ParenType sugar when when performing upcasts|[review](https://github.com/apple/swift/commit/8a1062dedd87d0e0cd122f08ad7996ec224c5253)| [x] |
+|40|apple_swift|2bb827|fix+upcast|Sema: Simplifying a KeyPathExpr's type should *bind* to the specific type, not accept a subtype constraint.|[review](https://github.com/apple/swift/commit/2bb827340b5d733cca3a1c9992f82afb0a3f9db6)| [x] |
+|41|apple_swift|f7e05f|fix+downcast|[Bridging cast optimization] Unchecked casts can perform a class downcast.|[review](https://github.com/apple/swift/commit/f7e05fd9517f5c4092989aa53ea3d308edfc5628)| [x] |
+|42|apple_swift|62e194|fix+downcast|[cast-optimizer] Bail out on a conditional downcast to a subclass of a bridged ObjC class|[review](https://github.com/apple/swift/commit/62e1944d7b1018a3314843d01fce410118f1272b)| [x] |
+|43|apple_swift|19b12a|fix+downcast|Sema: Fix convenience init delegation to a convenience init in a generic base class|[review](https://github.com/apple/swift/commit/19b12aa3b1ed74c5bd631bf4c505d63b8fafc809)| [x] |
+|44|apple_swift|b639f7|fix+downcast|Sema: Fix conditional downcasts from Swift types to CF types|[review](https://github.com/apple/swift/commit/b639f7fd83a86b9c2f97d14bb9723c53bb20151d)| [x] |
+|45|apple_swift|35a559|fix+downcast|SILGen: Fixes for *static* 'Self'-returning methods|[review](https://github.com/apple/swift/commit/35a5594035ec4074fb0e562ea1e16dab59e44ace)| tangled changd |
+|46|apple_swift|3052e3|fix+cast|Runtime: Fix dynamic casts of variadic types that conditionally conform|[review](https://github.com/apple/swift/commit/3052e36f7e58250aed7f1b9c6fc25f13d485a808)| [x] |
+|47|apple_swift|2c96e9|fix+cast|[Sema] Improved Cast Diagnostics when Literals are involved|[review](https://github.com/apple/swift/commit/2c96e90c719a5ca4bd400eda6895e0a0f9ae8774)| not really relevant |
+|48|apple_swift|f3b16f|fix+cast|[CS] Fix a couple of constraints in `getTypeForPattern`|[review](https://github.com/apple/swift/commit/f3b16fd7ad3463d8f2f6da231cf039c734d0cd43)| [x] |
+|49|apple_swift|27731b|fix+cast|IRGen: Another fix for compiling LLVM opaque pointers|[review](https://github.com/apple/swift/commit/27731bd61a44d72b5edae202208978b2b2671698)| not really relevant |
+|50|apple_swift|4b4662|fix+cast|[IRGen] Cast dynamic alloca to appropriate type.|[review](https://github.com/apple/swift/commit/4b46622e49ad3f4a37aac4967763db2b4b4c3f2c)| [x] |
+|51|apple_swift|6d63cf|fix+cast|fix cast type in getting task record|[review](https://github.com/apple/swift/commit/6d63cf49948e419d6c10c687736a26ea892636cc)| [x] |
+|52|apple_swift|cf8abc|fix+cast|Merge pull request #64017 from xedin/add-castTo-to-ConstraintFix|[review](https://github.com/apple/swift/commit/cf8abc9eb9bbbc394af05b14e2ec3f0421c04a9b)| [x] |
+|53|apple_swift|2dbc40|fix+cast|[CSFix] NFC: Add a way to cast one fix to the other (to complement `getAs`)|[review](https://github.com/apple/swift/commit/2dbc406ad2947b603542bdfbec4a689da1ce8499)| [x] |
+|54|apple_swift|ae926b|fix+cast|[RemoteMirror] Fix getEmptyTypeInfo() not allocating a BuiltinTypeInfo.|[review](https://github.com/apple/swift/commit/ae926bdc7d37b2e0a24c31648a720277fa672ee4)| [x] |
+|55|apple_swift|dc3978|fix+cast|Merge pull request #61853 from apple/egorzhdan/cxx-rac-iterator-nullptr|[review](https://github.com/apple/swift/commit/dc3978f6fbf149f3fbd9c30138040ca07762dd97)| [x] |
+|56|apple_swift|af57b2|fix+cast|[Backtracing] Tweaks after Mike's remarks.|[review](https://github.com/apple/swift/commit/af57b2c26daa5df31deea0bd525f261587435936)| not really relevant |
+|57|apple_swift|3e2992|fix+cast|[cxx-interop] Fix nullptr casts in auto-conformance logic|[review](https://github.com/apple/swift/commit/3e29920949c53f109b2d2e3d9c26a7d99e8b6bf5)| [x] |
+|58|apple_swift|b91f29|fix+cast|SR-14635: __SwiftValue should be transparent to casting|[review](https://github.com/apple/swift/commit/b91f29dfcb97c5446bb131000ebd29ce31d287b3)| [x] |
+|59|apple_swift|f35e5e|fix+cast|Merge pull request #42333 from atrick/fix-cast-ownership|[review](https://github.com/apple/swift/commit/f35e5e87a2280a9c3c609236a71889ace1b2a810)| not really relevant |
+|60|apple_swift|524637|fix+cast|Merge pull request #59754 from zoecarver/fix-static-down-cast-shim|[review](https://github.com/apple/swift/commit/524637288e131ed363d377f95bee4c41f609af45)| [potential] |
+|61|apple_swift|bc1443|fix+cast|Merge pull request #60014 from slavapestov/fix-rdar93822961|[review](https://github.com/apple/swift/commit/bc1443e43e59e6a693af73eb74b5633f7883fcc9)| [x] |
+|62|apple_swift|c80d8e|fix+cast|IRGen: Exclude classes defined in generic contexts from fast cast optimization|[review](https://github.com/apple/swift/commit/c80d8e6b1c9958c44c47dfb0ed64f12740f1909a)| [x] |
+|63|apple_swift|2527d3|fix+cast|IRGen: fix how metadata is loaded for fast class casting|[review](https://github.com/apple/swift/commit/2527d3765ebde33c85ec4aa61925f61d28e77a10)| [x] |
+|64|apple_swift|99f170|fix+cast|[CSFix] Create a fix for checked cast that always fail and existential to CFType|[review](https://github.com/apple/swift/commit/99f17048735e6b8ffb4676e0677b05e6e0c4a632)| [x] |
+|65|apple_swift|ec615b|fix+cast|Fix ptrauth in RelativeDirectPointer to sign *then* cast (#41355)|[review](https://github.com/apple/swift/commit/ec615b9ee0ac7e763d57f6809c5d08b578e45096)| not really relevant |
+|66|apple_swift|15772e|fix+cast|[CSApply] Ajust expression rewriter to handle casts without reprs|[review](https://github.com/apple/swift/commit/15772e4a725a80bc6192efcd110b4aa0ced16123)| tangled changd |
 |67|apple_swift|e3b9c9|fix+cast|Fix RelativePtr ptrauth in swift_getAssociatedConformanceWitnessSlowImpl to sign *then* cast (#41354)|[review](https://github.com/apple/swift/commit/e3b9c987b184eaeecf5520ce0d1603d111aa1322)|
 |68|apple_swift|61b796|fix+cast|Merge pull request #41029 from gottesmm/pr-402798434e81cf56dae9ae94a5b62419917e7f65|[review](https://github.com/apple/swift/commit/61b79688cd40e2b145a64a7fa54e51d32e5ae25b)|
 |69|apple_swift|aa0dc1|fix+cast|IRGen: Fix typo in MetadataPath::followComponent()|[review](https://github.com/apple/swift/commit/aa0dc1a7ec6417085f7be8b915c6df70226198cd)|
