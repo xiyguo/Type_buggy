@@ -69,15 +69,15 @@
 |64|apple_swift|99f170|fix+cast|[CSFix] Create a fix for checked cast that always fail and existential to CFType|[review](https://github.com/apple/swift/commit/99f17048735e6b8ffb4676e0677b05e6e0c4a632)| [x] |
 |65|apple_swift|ec615b|fix+cast|Fix ptrauth in RelativeDirectPointer to sign *then* cast (#41355)|[review](https://github.com/apple/swift/commit/ec615b9ee0ac7e763d57f6809c5d08b578e45096)| not really relevant |
 |66|apple_swift|15772e|fix+cast|[CSApply] Ajust expression rewriter to handle casts without reprs|[review](https://github.com/apple/swift/commit/15772e4a725a80bc6192efcd110b4aa0ced16123)| tangled changd |
-|67|apple_swift|e3b9c9|fix+cast|Fix RelativePtr ptrauth in swift_getAssociatedConformanceWitnessSlowImpl to sign *then* cast (#41354)|[review](https://github.com/apple/swift/commit/e3b9c987b184eaeecf5520ce0d1603d111aa1322)|
-|68|apple_swift|61b796|fix+cast|Merge pull request #41029 from gottesmm/pr-402798434e81cf56dae9ae94a5b62419917e7f65|[review](https://github.com/apple/swift/commit/61b79688cd40e2b145a64a7fa54e51d32e5ae25b)|
-|69|apple_swift|aa0dc1|fix+cast|IRGen: Fix typo in MetadataPath::followComponent()|[review](https://github.com/apple/swift/commit/aa0dc1a7ec6417085f7be8b915c6df70226198cd)|
-|70|apple_swift|ca8b66|fix+cast|Merge pull request #39648 from LucianoPAlmeida/SR-15281-cast|[review](https://github.com/apple/swift/commit/ca8b660a1cd4c7e449b1d716e573099c0fbb074e)|
-|71|apple_swift|3cf35f|fix+cast|Fix incorrect cast in writeSILInstruction|[review](https://github.com/apple/swift/commit/3cf35f04f0d161d796918cdcc80ab2302e82bdd7)|
-|72|apple_swift|0a4254|fix+cast|[CSFix] NFC: Rename fix/diagnostic for checked casts that always succeed|[review](https://github.com/apple/swift/commit/0a425480d0c1463074997d52058e1ec9bd5fd2ea)|
-|73|apple_swift|f78997|fix+cast|Cleaning up anchor finding in interpolated strings|[review](https://github.com/apple/swift/commit/f789974391380a60b5f93defaf92cf65cd1bbf0b)|
-|74|apple_swift|1ea21d|fix+cast|Merge pull request #40287 from gottesmm/pr-8bb19fcfe173f5e7b33ddd95dcbc5566be2262b8|[review](https://github.com/apple/swift/commit/1ea21dbf872d5d6c71fef47a1c37ed8e3bb566e2)|
-|75|apple_swift|c06e81|fix+cast|Fixup Extended Existential Metatype Casts|[review](https://github.com/apple/swift/commit/c06e811b090a3e315dd871e0dea1553dc2e30b90)|
+|67|apple_swift|e3b9c9|fix+cast|Fix RelativePtr ptrauth in swift_getAssociatedConformanceWitnessSlowImpl to sign *then* cast (#41354)|[review](https://github.com/apple/swift/commit/e3b9c987b184eaeecf5520ce0d1603d111aa1322)| not really relevant |
+|68|apple_swift|61b796|fix+cast|Merge pull request #41029 from gottesmm/pr-402798434e81cf56dae9ae94a5b62419917e7f65|[review](https://github.com/apple/swift/commit/61b79688cd40e2b145a64a7fa54e51d32e5ae25b)| [x] |
+|69|apple_swift|aa0dc1|fix+cast|IRGen: Fix typo in MetadataPath::followComponent()|[review](https://github.com/apple/swift/commit/aa0dc1a7ec6417085f7be8b915c6df70226198cd)| not really relevant |
+|70|apple_swift|ca8b66|fix+cast|Merge pull request #39648 from LucianoPAlmeida/SR-15281-cast|[review](https://github.com/apple/swift/commit/ca8b660a1cd4c7e449b1d716e573099c0fbb074e)| tangled changd |
+|71|apple_swift|3cf35f|fix+cast|Fix incorrect cast in writeSILInstruction|[review](https://github.com/apple/swift/commit/3cf35f04f0d161d796918cdcc80ab2302e82bdd7)| [x] |
+|72|apple_swift|0a4254|fix+cast|[CSFix] NFC: Rename fix/diagnostic for checked casts that always succeed|[review](https://github.com/apple/swift/commit/0a425480d0c1463074997d52058e1ec9bd5fd2ea)| not really relevant |
+|73|apple_swift|f78997|fix+cast|Cleaning up anchor finding in interpolated strings|[review](https://github.com/apple/swift/commit/f789974391380a60b5f93defaf92cf65cd1bbf0b)| not really relevant |
+|74|apple_swift|1ea21d|fix+cast|Merge pull request #40287 from gottesmm/pr-8bb19fcfe173f5e7b33ddd95dcbc5566be2262b8|[review](https://github.com/apple/swift/commit/1ea21dbf872d5d6c71fef47a1c37ed8e3bb566e2)| tangled changd |
+|75|apple_swift|c06e81|fix+cast|Fixup Extended Existential Metatype Casts|[review](https://github.com/apple/swift/commit/c06e811b090a3e315dd871e0dea1553dc2e30b90)| tangled changd |
 |76|apple_swift|2d7e6b|fix+cast|Fix CastOptimizer for guaranteed values while handling checked_cast_br (#37800)|[review](https://github.com/apple/swift/commit/2d7e6bfc057e1d2c10d16fc48a81bf877708c4bd)|
 |77|apple_swift|cd7c9e|fix+cast|[sil-combine] Fix cast optimizer based optimizations for ownership.|[review](https://github.com/apple/swift/commit/cd7c9e97e46a0141e37f10fbfb74c094e0576ff3)|
 |78|apple_swift|da234d|fix+cast|[Sema][SR-15038] Use LocatorPathElt::GenericArgument to propagate (array, set, dictionary) generic elt in CheckedCast constraint and not record extraneous cast fixes for it|[review](https://github.com/apple/swift/commit/da234d0d7432de2fb41c09bf4e46edeff35d9f7d)|
