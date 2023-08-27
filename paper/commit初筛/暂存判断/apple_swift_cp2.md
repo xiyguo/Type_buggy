@@ -78,52 +78,52 @@
 |73|apple_swift|f78997|fix+cast|Cleaning up anchor finding in interpolated strings|[review](https://github.com/apple/swift/commit/f789974391380a60b5f93defaf92cf65cd1bbf0b)| not really relevant |
 |74|apple_swift|1ea21d|fix+cast|Merge pull request #40287 from gottesmm/pr-8bb19fcfe173f5e7b33ddd95dcbc5566be2262b8|[review](https://github.com/apple/swift/commit/1ea21dbf872d5d6c71fef47a1c37ed8e3bb566e2)| tangled changd |
 |75|apple_swift|c06e81|fix+cast|Fixup Extended Existential Metatype Casts|[review](https://github.com/apple/swift/commit/c06e811b090a3e315dd871e0dea1553dc2e30b90)| tangled changd |
-|76|apple_swift|2d7e6b|fix+cast|Fix CastOptimizer for guaranteed values while handling checked_cast_br (#37800)|[review](https://github.com/apple/swift/commit/2d7e6bfc057e1d2c10d16fc48a81bf877708c4bd)|
-|77|apple_swift|cd7c9e|fix+cast|[sil-combine] Fix cast optimizer based optimizations for ownership.|[review](https://github.com/apple/swift/commit/cd7c9e97e46a0141e37f10fbfb74c094e0576ff3)|
-|78|apple_swift|da234d|fix+cast|[Sema][SR-15038] Use LocatorPathElt::GenericArgument to propagate (array, set, dictionary) generic elt in CheckedCast constraint and not record extraneous cast fixes for it|[review](https://github.com/apple/swift/commit/da234d0d7432de2fb41c09bf4e46edeff35d9f7d)|
-|79|apple_swift|8743eb|fix+cast|[Runtime] Make debug builds accept NULL in swift_getObjCClassMetadata.|[review](https://github.com/apple/swift/commit/8743ebd9ea3d650bec6778f8cad64c4fc0c9d3b9)|
-|80|apple_swift|df93b5|fix+cast|Fix verifier error in CastOptimizer|[review](https://github.com/apple/swift/commit/df93b5cba48256d87cf834ac48be92046c80e6f6)|
-|81|apple_swift|85a582|fix+cast|CastOptimizer: fix a small deficiency when optimizing checked_cast_addr_br instructions.|[review](https://github.com/apple/swift/commit/85a5826d2ccf7285177c6f521c281275afa54082)|
-|82|apple_swift|e67317|fix+cast|Merge pull request #35522 from gottesmm/pr-8a2b2af60545c5ddaee01e7cb55828d421229335|[review](https://github.com/apple/swift/commit/e67317a03c3bd4fea9f592fcf33f76ef2ebe4747)|
-|83|apple_swift|8e5fb2|fix+cast|[sil] Ban casting AnyObject with a guaranteed ownership forwarding checked_cast_br and fix up semantic-arc-opts given that.|[review](https://github.com/apple/swift/commit/8e5fb2164a77bf0643a39df48d9cbc40c7477687)|
-|84|apple_swift|d24bb3|fix+cast|Merge pull request #21119 from mikeash/existential-metatype-metadata-cast-fix|[review](https://github.com/apple/swift/commit/d24bb36aab60c0c57f3056ec63ed20b25ac228a4)|
-|85|apple_swift|184ee7|fix+cast|IRGen: correctly cast C-function pointers in statically initialized globals.|[review](https://github.com/apple/swift/commit/184ee7133a844b309cff3d62d2d9cb58db3c464a)|
-|86|apple_swift|920b8c|fix+cast|Merge pull request #35934 from eeckstein/fix-simplify-ref-cast|[review](https://github.com/apple/swift/commit/920b8cf562412fb6295d664be6c0cbcecfa66e3f)|
-|87|apple_swift|f73e20|fix+cast|[cxx-interop] Fix crash when inout parameter is used in some "template contexts".|[review](https://github.com/apple/swift/commit/f73e20b7951f7e0ca2c4bb3294894fe8a21c3a1d)|
-|88|apple_swift|cfee4d|fix+cast|[runtime] Fix some casts of _SwiftValue (#8457)|[review](https://github.com/apple/swift/commit/cfee4d9c5e0479f34970a23f9477c2de83b248f9)|
-|89|apple_swift|219d09|fix+cast|Fix the cast optimizer to handle CF/NS bridging correctly,|[review](https://github.com/apple/swift/commit/219d093ef450897e28112883be7ca6557aac2c04)|
-|90|apple_swift|fdc108|fix+cast|Merge pull request #6563 from swiftix/wip-cast-optimizer-fixes|[review](https://github.com/apple/swift/commit/fdc10805e097953220af844c39b24e15d8cba8a2)|
-|91|apple_swift|830e1c|fix+cast|[sil-cast-optimizer] Fix casting between Swift and CF types|[review](https://github.com/apple/swift/commit/830e1c36d44b1f24e15febd6623aee018a21a5f8)|
-|92|apple_swift|522ab1|fix+cast|Merge pull request #1605 from aschwaighofer/cast_optimizer_unreachable_fix|[review](https://github.com/apple/swift/commit/522ab17c4fa2732c63efdfad531f5f2748d6f7ec)|
-|93|apple_swift|c78ed9|fix+cast|Merge pull request #9792 from swiftix/cast-optimizer-unconditional-checked-cast-addr-fixes|[review](https://github.com/apple/swift/commit/c78ed938d7978e8de7b6c0a986a02c6be4baa736)|
-|94|apple_swift|aa2c88|fix+cast|[cast-optimizer] Fix comments|[review](https://github.com/apple/swift/commit/aa2c88ebccf4df1b9e6f3f95cdead74af8a1d387)|
-|95|apple_swift|886fdf|fix+cast|Merge pull request #10281 from swiftix/cast-optimizer-fixes|[review](https://github.com/apple/swift/commit/886fdfddcd48523414224381f078311ac6e28a8c)|
-|96|apple_swift|35448a|fix+cast|Merge pull request #861 from jder/fix-fail-cast-overrelease|[review](https://github.com/apple/swift/commit/35448a1179ed941644009e8b1c33016c562383a8)|
-|97|apple_swift|740551|fix+cast|Fix the cast optimizer to remove instructions after inserting unreachable|[review](https://github.com/apple/swift/commit/7405512dcb3078929ef018cfed08f83ab435f22e)|
-|98|apple_swift|e080f2|fix+cast|Merge pull request #9511 from swiftix/cast-optimizer-fixes|[review](https://github.com/apple/swift/commit/e080f2cbc164240edf482922f1ff190b111bcebb)|
-|99|apple_swift|302240|fix+cast|[SR-392][Runtime] Avoid overrelease when failing cast to protocol|[review](https://github.com/apple/swift/commit/30224016c503ddae5c2eccd894458029b1b535b1)|
-|100|apple_swift|f91dd6|fix+cast|Merge pull request #857 from jder/fix-existential-cast-leak|[review](https://github.com/apple/swift/commit/f91dd6fa609bfd6e3bec877d0499012318b008b1)|
-|101|apple_swift|83950b|fix+cast|Merge pull request #21490 from atrick/fix-getobjc-after-free|[review](https://github.com/apple/swift/commit/83950babc9a3cbbb1023e41cc46588236d5e5d4f)|
-|102|apple_swift|58f81f|fix+cast|Merge pull request #7386 from swiftix/cast-optimizer-fixes|[review](https://github.com/apple/swift/commit/58f81f4d648a63eb1cbc9b7d344e04871569a3f6)|
-|103|apple_swift|4b3c82|fix+cast|Merge pull request #20836 from mikeash/anyhashable-cast-leak-fix|[review](https://github.com/apple/swift/commit/4b3c821affe097dbf0973a69526700ed4569ccef)|
-|104|apple_swift|2114ce|fix+cast|[Runtime] Fix incorrect cast in NonFixedExistentialMetatypeBox::Container::getNumWitnessTables.|[review](https://github.com/apple/swift/commit/2114ce011e9db6dcaadb1c6d16efedf9501999ee)|
-|105|apple_swift|804f78|fix+cast|Runtime: Don't leak bridged object when value-to-bridged-object cast fails.|[review](https://github.com/apple/swift/commit/804f78bfa8c49625a3f316701e0d1f9645af1ea2)|
-|106|apple_swift|50c0cf|fix+cast|[IRGen] Casts to an ObjC-class-bound archetype are not casts to the bound.|[review](https://github.com/apple/swift/commit/50c0cf531942efaeb1c367ecc10887e900a12970)|
-|107|apple_swift|ed93db|fix+cast|IRGen: Fix LLVM verifier failure with class casts when the source is an optional|[review](https://github.com/apple/swift/commit/ed93dbe1a6587713268c22d9c3606b28ae5284b4)|
-|108|apple_swift|e9baa3|fix+cast|Fix interpolated string effect placement|[review](https://github.com/apple/swift/commit/e9baa3fdd3f3983838065ea43b124944c5f4c3c7)|
-|109|apple_swift|e6586a|fix+cast|Merge pull request #21465 from linux-on-ibm-z/s390x-unicode-scalar-fix|[review](https://github.com/apple/swift/commit/e6586ac209c5b52430cd33cbfb0fd61ef5357075)|
-|110|apple_swift|6bc61f|fix+cast|Fix a fix-it to cast to the destination type, not the source type.|[review](https://github.com/apple/swift/commit/6bc61fe8ce89915ab3430829a84b1ac2dcbe5b57)|
-|111|apple_swift|3ff48d|fix+cast|Runtime: Fix memory leak when swift_dynamicCast does a copy_on_success bridging cast.|[review](https://github.com/apple/swift/commit/3ff48d95c44a77f74a7ac3f21c71310917b35398)|
-|112|apple_swift|d2cb83|fix+cast|[Constraint solver] Make checked cast constraint generation lazy.|[review](https://github.com/apple/swift/commit/d2cb83b4c7f81163c632f2c71700a143bd14743b)|
-|113|apple_swift|709951|fix+cast|[runtime] Fix a leak when a cast from an existential fails.|[review](https://github.com/apple/swift/commit/709951e82ecfe52eb7be3ac767c8db177a27fe24)|
-|114|apple_swift|44f71b|fix+cast|Handle all the cases of scalar dynamic casts allowed by SIL in IRGen.|[review](https://github.com/apple/swift/commit/44f71b1f11bcd021e3c602f92ea107a07087a95f)|
-|115|apple_swift|1bd9dc|fix+cast|SR-912: Runtime exception casting an Any nil to an Optional.|[review](https://github.com/apple/swift/commit/1bd9dc97b49d286555f42e87a74568d913e5cd10)|
-|116|apple_swift|e09027|fix+cast|Fix the error message when a cast to a protocol type fails.|[review](https://github.com/apple/swift/commit/e09027ca04e63a1ba79b54ea8716d51733170469)|
-|117|apple_swift|9d06ac|fix+cast|[cast-optimizer] Do not try to optimized a bridged cast if it involves an unbound generic type.|[review](https://github.com/apple/swift/commit/9d06ac888e6523ec292815f2d18697e0574504d4)|
-|118|apple_swift|4e9851|fix+cast|Don't classify bridging casts as WillSucceed if the object-to-value cast can fail.|[review](https://github.com/apple/swift/commit/4e9851b032b1ae351bb80854fcdb7fc943a90cad)|
-|119|apple_swift|62b511|fix+cast|[sil] Add a new CastConsumptionKind called BorrowAlways.|[review](https://github.com/apple/swift/commit/62b511035710814ca286615bdaa02f85b17125c0)|
+|76|apple_swift|2d7e6b|fix+cast|Fix CastOptimizer for guaranteed values while handling checked_cast_br (#37800)|[review](https://github.com/apple/swift/commit/2d7e6bfc057e1d2c10d16fc48a81bf877708c4bd)| not really relevant |
+|77|apple_swift|cd7c9e|fix+cast|[sil-combine] Fix cast optimizer based optimizations for ownership.|[review](https://github.com/apple/swift/commit/cd7c9e97e46a0141e37f10fbfb74c094e0576ff3)| [x] |
+|78|apple_swift|da234d|fix+cast|[Sema][SR-15038] Use LocatorPathElt::GenericArgument to propagate (array, set, dictionary) generic elt in CheckedCast constraint and not record extraneous cast fixes for it|[review](https://github.com/apple/swift/commit/da234d0d7432de2fb41c09bf4e46edeff35d9f7d)| not really relevant |
+|79|apple_swift|8743eb|fix+cast|[Runtime] Make debug builds accept NULL in swift_getObjCClassMetadata.|[review](https://github.com/apple/swift/commit/8743ebd9ea3d650bec6778f8cad64c4fc0c9d3b9)| [x] |
+|80|apple_swift|df93b5|fix+cast|Fix verifier error in CastOptimizer|[review](https://github.com/apple/swift/commit/df93b5cba48256d87cf834ac48be92046c80e6f6)| tangled changd |
+|81|apple_swift|85a582|fix+cast|CastOptimizer: fix a small deficiency when optimizing checked_cast_addr_br instructions.|[review](https://github.com/apple/swift/commit/85a5826d2ccf7285177c6f521c281275afa54082)| not really relevant |
+|82|apple_swift|e67317|fix+cast|Merge pull request #35522 from gottesmm/pr-8a2b2af60545c5ddaee01e7cb55828d421229335|[review](https://github.com/apple/swift/commit/e67317a03c3bd4fea9f592fcf33f76ef2ebe4747)| [x] |
+|83|apple_swift|8e5fb2|fix+cast|[sil] Ban casting AnyObject with a guaranteed ownership forwarding checked_cast_br and fix up semantic-arc-opts given that.|[review](https://github.com/apple/swift/commit/8e5fb2164a77bf0643a39df48d9cbc40c7477687)| tangled changd |
+|84|apple_swift|d24bb3|fix+cast|Merge pull request #21119 from mikeash/existential-metatype-metadata-cast-fix|[review](https://github.com/apple/swift/commit/d24bb36aab60c0c57f3056ec63ed20b25ac228a4)| [x] |
+|85|apple_swift|184ee7|fix+cast|IRGen: correctly cast C-function pointers in statically initialized globals.|[review](https://github.com/apple/swift/commit/184ee7133a844b309cff3d62d2d9cb58db3c464a)| [x] |
+|86|apple_swift|920b8c|fix+cast|Merge pull request #35934 from eeckstein/fix-simplify-ref-cast|[review](https://github.com/apple/swift/commit/920b8cf562412fb6295d664be6c0cbcecfa66e3f)| not really relevant |
+|87|apple_swift|f73e20|fix+cast|[cxx-interop] Fix crash when inout parameter is used in some "template contexts".|[review](https://github.com/apple/swift/commit/f73e20b7951f7e0ca2c4bb3294894fe8a21c3a1d)| not really relevant |
+|88|apple_swift|cfee4d|fix+cast|[runtime] Fix some casts of _SwiftValue (#8457)|[review](https://github.com/apple/swift/commit/cfee4d9c5e0479f34970a23f9477c2de83b248f9)| tangled changd |
+|89|apple_swift|219d09|fix+cast|Fix the cast optimizer to handle CF/NS bridging correctly,|[review](https://github.com/apple/swift/commit/219d093ef450897e28112883be7ca6557aac2c04)| tangled changd |
+|90|apple_swift|fdc108|fix+cast|Merge pull request #6563 from swiftix/wip-cast-optimizer-fixes|[review](https://github.com/apple/swift/commit/fdc10805e097953220af844c39b24e15d8cba8a2)| [potential] |
+|91|apple_swift|830e1c|fix+cast|[sil-cast-optimizer] Fix casting between Swift and CF types|[review](https://github.com/apple/swift/commit/830e1c36d44b1f24e15febd6623aee018a21a5f8)| [potential] |
+|92|apple_swift|522ab1|fix+cast|Merge pull request #1605 from aschwaighofer/cast_optimizer_unreachable_fix|[review](https://github.com/apple/swift/commit/522ab17c4fa2732c63efdfad531f5f2748d6f7ec)| not really relevant |
+|93|apple_swift|c78ed9|fix+cast|Merge pull request #9792 from swiftix/cast-optimizer-unconditional-checked-cast-addr-fixes|[review](https://github.com/apple/swift/commit/c78ed938d7978e8de7b6c0a986a02c6be4baa736)| [potential] |
+|94|apple_swift|aa2c88|fix+cast|[cast-optimizer] Fix comments|[review](https://github.com/apple/swift/commit/aa2c88ebccf4df1b9e6f3f95cdead74af8a1d387)| not really relevant |
+|95|apple_swift|886fdf|fix+cast|Merge pull request #10281 from swiftix/cast-optimizer-fixes|[review](https://github.com/apple/swift/commit/886fdfddcd48523414224381f078311ac6e28a8c)| [potential] |
+|96|apple_swift|35448a|fix+cast|Merge pull request #861 from jder/fix-fail-cast-overrelease|[review](https://github.com/apple/swift/commit/35448a1179ed941644009e8b1c33016c562383a8)| [x] |
+|97|apple_swift|740551|fix+cast|Fix the cast optimizer to remove instructions after inserting unreachable|[review](https://github.com/apple/swift/commit/7405512dcb3078929ef018cfed08f83ab435f22e)| not really relevant |
+|98|apple_swift|e080f2|fix+cast|Merge pull request #9511 from swiftix/cast-optimizer-fixes|[review](https://github.com/apple/swift/commit/e080f2cbc164240edf482922f1ff190b111bcebb)| [x] |
+|99|apple_swift|302240|fix+cast|[SR-392][Runtime] Avoid overrelease when failing cast to protocol|[review](https://github.com/apple/swift/commit/30224016c503ddae5c2eccd894458029b1b535b1)| [x] |
+|100|apple_swift|f91dd6|fix+cast|Merge pull request #857 from jder/fix-existential-cast-leak|[review](https://github.com/apple/swift/commit/f91dd6fa609bfd6e3bec877d0499012318b008b1)| [x] |
+|101|apple_swift|83950b|fix+cast|Merge pull request #21490 from atrick/fix-getobjc-after-free|[review](https://github.com/apple/swift/commit/83950babc9a3cbbb1023e41cc46588236d5e5d4f)| not really relevant |
+|102|apple_swift|58f81f|fix+cast|Merge pull request #7386 from swiftix/cast-optimizer-fixes|[review](https://github.com/apple/swift/commit/58f81f4d648a63eb1cbc9b7d344e04871569a3f6)| not really relevant |
+|103|apple_swift|4b3c82|fix+cast|Merge pull request #20836 from mikeash/anyhashable-cast-leak-fix|[review](https://github.com/apple/swift/commit/4b3c821affe097dbf0973a69526700ed4569ccef)| [x] |
+|104|apple_swift|2114ce|fix+cast|[Runtime] Fix incorrect cast in NonFixedExistentialMetatypeBox::Container::getNumWitnessTables.|[review](https://github.com/apple/swift/commit/2114ce011e9db6dcaadb1c6d16efedf9501999ee)| [x] |
+|105|apple_swift|804f78|fix+cast|Runtime: Don't leak bridged object when value-to-bridged-object cast fails.|[review](https://github.com/apple/swift/commit/804f78bfa8c49625a3f316701e0d1f9645af1ea2)| [x] |
+|106|apple_swift|50c0cf|fix+cast|[IRGen] Casts to an ObjC-class-bound archetype are not casts to the bound.|[review](https://github.com/apple/swift/commit/50c0cf531942efaeb1c367ecc10887e900a12970)| [potential] |
+|107|apple_swift|ed93db|fix+cast|IRGen: Fix LLVM verifier failure with class casts when the source is an optional|[review](https://github.com/apple/swift/commit/ed93dbe1a6587713268c22d9c3606b28ae5284b4)| [x] |
+|108|apple_swift|e9baa3|fix+cast|Fix interpolated string effect placement|[review](https://github.com/apple/swift/commit/e9baa3fdd3f3983838065ea43b124944c5f4c3c7)| not really relevant |
+|109|apple_swift|e6586a|fix+cast|Merge pull request #21465 from linux-on-ibm-z/s390x-unicode-scalar-fix|[review](https://github.com/apple/swift/commit/e6586ac209c5b52430cd33cbfb0fd61ef5357075)| not really relevant |
+|110|apple_swift|6bc61f|fix+cast|Fix a fix-it to cast to the destination type, not the source type.|[review](https://github.com/apple/swift/commit/6bc61fe8ce89915ab3430829a84b1ac2dcbe5b57)| [x] |
+|111|apple_swift|3ff48d|fix+cast|Runtime: Fix memory leak when swift_dynamicCast does a copy_on_success bridging cast.|[review](https://github.com/apple/swift/commit/3ff48d95c44a77f74a7ac3f21c71310917b35398)| [x] |
+|112|apple_swift|d2cb83|fix+cast|[Constraint solver] Make checked cast constraint generation lazy.|[review](https://github.com/apple/swift/commit/d2cb83b4c7f81163c632f2c71700a143bd14743b)| not really relevant |
+|113|apple_swift|709951|fix+cast|[runtime] Fix a leak when a cast from an existential fails.|[review](https://github.com/apple/swift/commit/709951e82ecfe52eb7be3ac767c8db177a27fe24)| [x] |
+|114|apple_swift|44f71b|fix+cast|Handle all the cases of scalar dynamic casts allowed by SIL in IRGen.|[review](https://github.com/apple/swift/commit/44f71b1f11bcd021e3c602f92ea107a07087a95f)| [x] |
+|115|apple_swift|1bd9dc|fix+cast|SR-912: Runtime exception casting an Any nil to an Optional.|[review](https://github.com/apple/swift/commit/1bd9dc97b49d286555f42e87a74568d913e5cd10)| [x] |
+|116|apple_swift|e09027|fix+cast|Fix the error message when a cast to a protocol type fails.|[review](https://github.com/apple/swift/commit/e09027ca04e63a1ba79b54ea8716d51733170469)| not really relevant |
+|117|apple_swift|9d06ac|fix+cast|[cast-optimizer] Do not try to optimized a bridged cast if it involves an unbound generic type.|[review](https://github.com/apple/swift/commit/9d06ac888e6523ec292815f2d18697e0574504d4)| [x] |
+|118|apple_swift|4e9851|fix+cast|Don't classify bridging casts as WillSucceed if the object-to-value cast can fail.|[review](https://github.com/apple/swift/commit/4e9851b032b1ae351bb80854fcdb7fc943a90cad)| [x] |
+|119|apple_swift|62b511|fix+cast|[sil] Add a new CastConsumptionKind called BorrowAlways.|[review](https://github.com/apple/swift/commit/62b511035710814ca286615bdaa02f85b17125c0)| tangled changd |
 |120|apple_swift|50af58|fix+cast|Merge pull request #4030 from jckarter/27671131|[review](https://github.com/apple/swift/commit/50af58b62a3ac74110d93cdc585cc4bda5d0552b)|
-|121|apple_swift|c32dae|fix+cast|SwiftPrivateThreadExtras: fix windows build|[review](https://github.com/apple/swift/commit/c32daed203f4b767c3f43354633d1c490672b0a9)|
+|121|apple_swift|c32dae|fix+cast|SwiftPrivateThreadExtras: fix windows build|[review](https://github.com/apple/swift/commit/c32daed203f4b767c3f43354633d1c490672b0a9)| not really relevant |
 |122|apple_swift|c552b3|fix+cast|Sema: Remove unnecessary cast that leading to crash when subscript witness was mislabeled|[review](https://github.com/apple/swift/commit/c552b3c614de83654b7578d32c80e365d81159a7)|
 |123|apple_swift|842b3c|fix+cast|[cast-optimizer] Use a stricter pre-condition|[review](https://github.com/apple/swift/commit/842b3c7f0be5c8e6a8506953515d3c2429938310)|
 |124|apple_swift|482c82|fix+cast|Runtime: Don't rewrap an NSError when trying to dynamic cast to NSError.|[review](https://github.com/apple/swift/commit/482c82c4f19b49251bc59e181a3c83d74bbb3521)|
